@@ -11,6 +11,7 @@ import "@openzeppelin/contracts/utils/Counters.sol";
 
 contract Thehmiguy is ERC721, ERC721Enumerable, ERC721URIStorage {
     using Counters for Counters.Counter; //initializing counters library
+    uint256 MAX_SUPPLY = 100000; //use cap-letters for constants
 
     Counters.Counter private _tokenIdCounter;
 
@@ -18,6 +19,7 @@ contract Thehmiguy is ERC721, ERC721Enumerable, ERC721URIStorage {
 
     function safeMint(address to, string memory uri) public {
         uint256 tokenId = _tokenIdCounter.current();
+        require(tokenId <= MAX_SUPPLY, "I'm sorry all NFTs have been minted");
         _tokenIdCounter.increment();
         _safeMint(to, tokenId);
         _setTokenURI(tokenId, uri);
