@@ -15,6 +15,8 @@ https://dashboard.alchemyapi.io/apps/8ql8v1802hh9d7kw
 - Above URL is the dashboard for the Alchemy app created for this project. 
     - Minute mark 30 minute
 
+https://docs.opensea.io/docs/metadata-standards
+
 
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
 
