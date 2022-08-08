@@ -1,4 +1,4 @@
-# Sample Hardhat Project
+# How to develop an NFT Smart Contract (ERC721) with Alchemy
 
 # Solidity-RoadToWeb3
 
