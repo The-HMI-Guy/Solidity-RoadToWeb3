@@ -11,7 +11,11 @@ import "@openzeppelin/contracts/utils/Counters.sol";
 
 contract Thehmiguy is ERC721, ERC721Enumerable, ERC721URIStorage {
     using Counters for Counters.Counter; //initializing counters library
+
     uint256 MAX_SUPPLY = 100000; //use cap-letters for constants
+    uint8 MAX_MINT = 10;
+
+    mapping(address => uint8) public mintCount;
 
     Counters.Counter private _tokenIdCounter;
 
@@ -19,10 +23,12 @@ contract Thehmiguy is ERC721, ERC721Enumerable, ERC721URIStorage {
 
     function safeMint(address to, string memory uri) public {
         uint256 tokenId = _tokenIdCounter.current();
+        require(mintCount[msg.sender] < MAX_MINT, "You may not mint more than 10 NFTs per wallet");
         require(tokenId <= MAX_SUPPLY, "I'm sorry all NFTs have been minted");
         _tokenIdCounter.increment();
         _safeMint(to, tokenId);
         _setTokenURI(tokenId, uri);
+        mintCount[msg.sender] += 1; 
     }
 
     // The following functions are overrides required by Solidity.
