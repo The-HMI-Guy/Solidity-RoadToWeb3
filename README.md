@@ -2,6 +2,10 @@
 
 # Solidity-RoadToWeb3
 
+## Link
+
+[![Thumbnail](https://img.youtube.com/vi/PLMj8NvODurfEYLsuiClgikZBGDfhwdcXF/maxresdefault.jpg)](https://youtu.be/veBu03A6ptw)
+
 https://docs.alchemy.com/docs/welcome-to-the-road-to-web3
 
 https://docs.openzeppelin.com/contracts/4.x/wizard
