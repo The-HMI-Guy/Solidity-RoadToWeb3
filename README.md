@@ -1,8 +1,12 @@
+# Road To Web3 - Week 1
+
 # How to develop an NFT Smart Contract (ERC721) with Alchemy
 
-## Link
+## Youtube Link
 
 [![Thumbnail](https://img.youtube.com/vi/veBu03A6ptw/maxresdefault.jpg)](https://youtu.be/veBu03A6ptw)
+
+## Additional Links
 
 https://docs.alchemy.com/docs/welcome-to-the-road-to-web3
 
@@ -20,6 +24,8 @@ https://dashboard.alchemyapi.io/apps/8ql8v1802hh9d7kw
 https://docs.opensea.io/docs/metadata-standards
 
 https://console.filebase.com/
+
+# Hardhat Commands
 
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
 
