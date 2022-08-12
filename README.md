@@ -1,10 +1,8 @@
 # How to develop an NFT Smart Contract (ERC721) with Alchemy
 
-# Solidity-RoadToWeb3
-
 ## Link
 
-[![Thumbnail](https://img.youtube.com/vi/veBu03A6ptw&list=PLMj8NvODurfEYLsuiClgikZBGDfhwdcXF/maxresdefault.jpg)](https://youtu.be/veBu03A6ptw)
+[![Thumbnail](https://img.youtube.com/vi/veBu03A6ptw/maxresdefault.jpg)](https://youtu.be/veBu03A6ptw)
 
 https://docs.alchemy.com/docs/welcome-to-the-road-to-web3
 
